@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 increment = 0.2         # =! ajout au compteur #
 
 def fonction(x):
-    y = math.cos(x)
+    y = -x**2
     return y
 
 def derivee_f():
@@ -27,7 +27,7 @@ def tangente_f(a):
     return f
 
 # Ou veut on tracer la tangente ? #
-position = 6
+position = 5
 position = int(position * 10)
 tangente = tangente_f(position)
 
