@@ -1,6 +1,6 @@
 import math
 import matplotlib.pyplot as plt
-
+# alenaaaaaa
 increment = 0.2         # =! ajout au compteur #
 
 def fonction(x):
